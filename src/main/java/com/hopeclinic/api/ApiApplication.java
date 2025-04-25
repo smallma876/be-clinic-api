@@ -1,13 +1,13 @@
-package com.mallma.clinica.clinica_api;
+package com.hopeclinic.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClinicaApiApplication {
+public class ApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClinicaApiApplication.class, args);
+		SpringApplication.run(ApiApplication.class, args);
 	}
 
 }
